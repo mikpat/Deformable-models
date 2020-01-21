@@ -17,3 +17,10 @@ The nerve images are slices of the 3D nerve taken at approximetly equidistant le
 The below gif shows how three deformable models evolve over a sequence of images.
 
 ![](segmentation_gif.gif)
+
+
+## Future improvements
+
+- more fine tuning of internal forces parameters
+
+- bilinear interpolation of curvature points 
