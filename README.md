@@ -10,7 +10,7 @@ Extracting contours of the myelinated nerve cells in a volumetric data can help 
 
 ## Approach
 
-The nerve images are slices of the 3D nerve taken at approximetly equidistant lengths. This results in images that do not change rapidly inbetween images. Therefore, a model that gradually evolves over a squence of images is suitable for this task. Deformable model is a curve that moves under the influence of external and internal forces. The external forces depends on the information from the image. The internal forces imposes prior smoothness to the curve. In this project, curve was represented by a set of points(also called a snake). The external forces were calculated based on Chan-Vese algorithm. Internal forces introducted elasticity(first-order derivitive of the curviture) and ridigity(second-order derivitive of the curviture) to the overall force.
+The nerve images are slices of the 3D nerve taken at approximetly equidistant lengths. This results in images that do not change rapidly inbetween images. Therefore, a model that gradually evolves over a squence of images is suitable for this task. Deformable model is a curve that moves under the influence of external and internal forces. The external forces depend on the information from the image. The internal forces imposes prior smoothness to the curve. In this project, curve was represented by a set of points(also called a snake). The external forces were calculated based on Chan-Vese algorithm. Internal forces introducted elasticity(first-order derivitive of the curviture) and ridigity(second-order derivitive of the curviture) to the overall force.
 
 ## Results
 
